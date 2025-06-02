@@ -102,7 +102,7 @@ with open('example.txt', 'rb') as f:
 
 1. 克隆仓库
 ```bash
-git clone https://github.com/yourusername/secure-ciphertext.git
+git clone https://github.com/zhaobokai341/secure-ciphertext.git
 cd secure-ciphertext
 ```
 
