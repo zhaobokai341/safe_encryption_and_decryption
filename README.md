@@ -111,11 +111,6 @@ cd secure-ciphertext
 pip install -r requirements.txt
 ```
 
-3. 运行测试
-```bash
-python -m unittest discover tests
-```
-
 ## 贡献
 
 欢迎提交Pull Request或创建Issue！
