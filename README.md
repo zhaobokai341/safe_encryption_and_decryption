@@ -11,14 +11,14 @@
 
 ## 安装
 
-- pip安装
+### pip安装
 
-### 注意：pip暂不支持，因为我没有上传到pypi，后面上传了可能会支持
+<p style="color: red">注意：pip暂不支持，因为我没有上传到pypi，后面上传了可能会支持</p>
 ```bash
 pip install secure-ciphertext
 ```
 
-- 下载源代码到本地库安装
+### 下载源代码到本地库安装
 
 1. 克隆仓库
 ```bash
