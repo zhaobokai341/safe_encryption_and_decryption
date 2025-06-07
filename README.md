@@ -14,6 +14,7 @@
 ### pip安装
 
 <p style="color: red">注意：pip暂不支持，因为我没有上传到pypi，后面上传了可能会支持</p>
+
 ```bash
 pip install secure-ciphertext
 ```
