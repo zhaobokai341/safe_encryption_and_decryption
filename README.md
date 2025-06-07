@@ -11,9 +11,29 @@
 
 ## 安装
 
+- pip安装
+
 ### 注意：pip暂不支持，因为我没有上传到pypi，后面上传了可能会支持
 ```bash
 pip install secure-ciphertext
+```
+
+- 下载源代码到本地库安装
+
+1. 克隆仓库
+```bash
+git clone https://github.com/zhaobokai341/secure-ciphertext.git
+cd secure-ciphertext
+```
+
+2. 安装依赖
+```bash
+pip install -r requirements.txt
+```
+
+3. 安装本地库
+```bash
+pip install .
 ```
 
 ## 快速开始
@@ -96,19 +116,6 @@ print(f"Decrypted: {decrypted}")  # 输出: Hello, World!
 # 此代码需要example.exe文件，当然你可以忽略注释或删除此代码
 with open('example.txt', 'rb') as f:
     encrypted_file = ascii_encryptor.encrypt(f, offset=3, key="key")
-```
-
-## 开发
-
-1. 克隆仓库
-```bash
-git clone https://github.com/zhaobokai341/secure-ciphertext.git
-cd secure-ciphertext
-```
-
-2. 安装依赖
-```bash
-pip install -r requirements.txt
 ```
 
 ## 贡献
