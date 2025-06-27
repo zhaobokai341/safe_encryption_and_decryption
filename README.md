@@ -114,7 +114,7 @@ decrypted = ascii_decryptor.decrypt(encrypted, offset=5, key="secret")
 print(f"Decrypted: {decrypted}")  # 输出: Hello, World!
 
 # 支持字符串、字节和文件对象
-# 此代码需要example.exe文件，当然你可以忽略注释或删除此代码
+# 此代码需要example.txt文件，当然你可以忽略注释或删除此代码
 with open('example.txt', 'rb') as f:
     encrypted_file = ascii_encryptor.encrypt(f, offset=3, key="key")
 ```
